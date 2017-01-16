@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421340E01E2D38C6002BC518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 421340DF1E2D38C6002BC518 /* main.m */; };
+		421340E31E2D38C6002BC518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 421340E21E2D38C6002BC518 /* AppDelegate.m */; };
+		421340E61E2D38C6002BC518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 421340E51E2D38C6002BC518 /* ViewController.m */; };
+		421340E91E2D38C6002BC518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421340E71E2D38C6002BC518 /* Main.storyboard */; };
+		421340EB1E2D38C6002BC518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421340EA1E2D38C6002BC518 /* Assets.xcassets */; };
+		421340EE1E2D38C6002BC518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421340EC1E2D38C6002BC518 /* LaunchScreen.storyboard */; };
+		421340F91E2D38C6002BC518 /* UIButton_blockMsgTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 421340F81E2D38C6002BC518 /* UIButton_blockMsgTests.m */; };
+		421341041E2D38C6002BC518 /* UIButton_blockMsgUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 421341031E2D38C6002BC518 /* UIButton_blockMsgUITests.m */; };
+		421341131E2D392F002BC518 /* UIButton+blockMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 421341121E2D392F002BC518 /* UIButton+blockMsg.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		421340F51E2D38C6002BC518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421340D31E2D38C6002BC518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421340DA1E2D38C6002BC518;
+			remoteInfo = "UIButton-blockMsg";
+		};
+		421341001E2D38C6002BC518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421340D31E2D38C6002BC518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421340DA1E2D38C6002BC518;
+			remoteInfo = "UIButton-blockMsg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		421340DB1E2D38C6002BC518 /* UIButton-blockMsg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIButton-blockMsg.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		421340DF1E2D38C6002BC518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		421340E11E2D38C6002BC518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		421340E21E2D38C6002BC518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		421340E41E2D38C6002BC518 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		421340E51E2D38C6002BC518 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		421340E81E2D38C6002BC518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		421340EA1E2D38C6002BC518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		421340ED1E2D38C6002BC518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		421340EF1E2D38C6002BC518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421340F41E2D38C6002BC518 /* UIButton-blockMsgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIButton-blockMsgTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		421340F81E2D38C6002BC518 /* UIButton_blockMsgTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButton_blockMsgTests.m; sourceTree = "<group>"; };
+		421340FA1E2D38C6002BC518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421340FF1E2D38C6002BC518 /* UIButton-blockMsgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIButton-blockMsgUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		421341031E2D38C6002BC518 /* UIButton_blockMsgUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButton_blockMsgUITests.m; sourceTree = "<group>"; };
+		421341051E2D38C6002BC518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		421341111E2D392F002BC518 /* UIButton+blockMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+blockMsg.h"; sourceTree = "<group>"; };
+		421341121E2D392F002BC518 /* UIButton+blockMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+blockMsg.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421340D81E2D38C6002BC518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421340F11E2D38C6002BC518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421340FC1E2D38C6002BC518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421340D21E2D38C6002BC518 = {
+			isa = PBXGroup;
+			children = (
+				421340DD1E2D38C6002BC518 /* UIButton-blockMsg */,
+				421340F71E2D38C6002BC518 /* UIButton-blockMsgTests */,
+				421341021E2D38C6002BC518 /* UIButton-blockMsgUITests */,
+				421340DC1E2D38C6002BC518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		421340DC1E2D38C6002BC518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421340DB1E2D38C6002BC518 /* UIButton-blockMsg.app */,
+				421340F41E2D38C6002BC518 /* UIButton-blockMsgTests.xctest */,
+				421340FF1E2D38C6002BC518 /* UIButton-blockMsgUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		421340DD1E2D38C6002BC518 /* UIButton-blockMsg */ = {
+			isa = PBXGroup;
+			children = (
+				421341141E2D3951002BC518 /* UIButton+blockMsg */,
+				421340E11E2D38C6002BC518 /* AppDelegate.h */,
+				421340E21E2D38C6002BC518 /* AppDelegate.m */,
+				421340E41E2D38C6002BC518 /* ViewController.h */,
+				421340E51E2D38C6002BC518 /* ViewController.m */,
+				421340E71E2D38C6002BC518 /* Main.storyboard */,
+				421340EA1E2D38C6002BC518 /* Assets.xcassets */,
+				421340EC1E2D38C6002BC518 /* LaunchScreen.storyboard */,
+				421340EF1E2D38C6002BC518 /* Info.plist */,
+				421340DE1E2D38C6002BC518 /* Supporting Files */,
+			);
+			path = "UIButton-blockMsg";
+			sourceTree = "<group>";
+		};
+		421340DE1E2D38C6002BC518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				421340DF1E2D38C6002BC518 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		421340F71E2D38C6002BC518 /* UIButton-blockMsgTests */ = {
+			isa = PBXGroup;
+			children = (
+				421340F81E2D38C6002BC518 /* UIButton_blockMsgTests.m */,
+				421340FA1E2D38C6002BC518 /* Info.plist */,
+			);
+			path = "UIButton-blockMsgTests";
+			sourceTree = "<group>";
+		};
+		421341021E2D38C6002BC518 /* UIButton-blockMsgUITests */ = {
+			isa = PBXGroup;
+			children = (
+				421341031E2D38C6002BC518 /* UIButton_blockMsgUITests.m */,
+				421341051E2D38C6002BC518 /* Info.plist */,
+			);
+			path = "UIButton-blockMsgUITests";
+			sourceTree = "<group>";
+		};
+		421341141E2D3951002BC518 /* UIButton+blockMsg */ = {
+			isa = PBXGroup;
+			children = (
+				421341111E2D392F002BC518 /* UIButton+blockMsg.h */,
+				421341121E2D392F002BC518 /* UIButton+blockMsg.m */,
+			);
+			name = "UIButton+blockMsg";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		421340DA1E2D38C6002BC518 /* UIButton-blockMsg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421341081E2D38C6002BC518 /* Build configuration list for PBXNativeTarget "UIButton-blockMsg" */;
+			buildPhases = (
+				421340D71E2D38C6002BC518 /* Sources */,
+				421340D81E2D38C6002BC518 /* Frameworks */,
+				421340D91E2D38C6002BC518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIButton-blockMsg";
+			productName = "UIButton-blockMsg";
+			productReference = 421340DB1E2D38C6002BC518 /* UIButton-blockMsg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		421340F31E2D38C6002BC518 /* UIButton-blockMsgTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4213410B1E2D38C6002BC518 /* Build configuration list for PBXNativeTarget "UIButton-blockMsgTests" */;
+			buildPhases = (
+				421340F01E2D38C6002BC518 /* Sources */,
+				421340F11E2D38C6002BC518 /* Frameworks */,
+				421340F21E2D38C6002BC518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421340F61E2D38C6002BC518 /* PBXTargetDependency */,
+			);
+			name = "UIButton-blockMsgTests";
+			productName = "UIButton-blockMsgTests";
+			productReference = 421340F41E2D38C6002BC518 /* UIButton-blockMsgTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		421340FE1E2D38C6002BC518 /* UIButton-blockMsgUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4213410E1E2D38C6002BC518 /* Build configuration list for PBXNativeTarget "UIButton-blockMsgUITests" */;
+			buildPhases = (
+				421340FB1E2D38C6002BC518 /* Sources */,
+				421340FC1E2D38C6002BC518 /* Frameworks */,
+				421340FD1E2D38C6002BC518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421341011E2D38C6002BC518 /* PBXTargetDependency */,
+			);
+			name = "UIButton-blockMsgUITests";
+			productName = "UIButton-blockMsgUITests";
+			productReference = 421340FF1E2D38C6002BC518 /* UIButton-blockMsgUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421340D31E2D38C6002BC518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = yyt;
+				TargetAttributes = {
+					421340DA1E2D38C6002BC518 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					421340F31E2D38C6002BC518 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 421340DA1E2D38C6002BC518;
+					};
+					421340FE1E2D38C6002BC518 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 421340DA1E2D38C6002BC518;
+					};
+				};
+			};
+			buildConfigurationList = 421340D61E2D38C6002BC518 /* Build configuration list for PBXProject "UIButton-blockMsg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421340D21E2D38C6002BC518;
+			productRefGroup = 421340DC1E2D38C6002BC518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421340DA1E2D38C6002BC518 /* UIButton-blockMsg */,
+				421340F31E2D38C6002BC518 /* UIButton-blockMsgTests */,
+				421340FE1E2D38C6002BC518 /* UIButton-blockMsgUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		421340D91E2D38C6002BC518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421340EE1E2D38C6002BC518 /* LaunchScreen.storyboard in Resources */,
+				421340EB1E2D38C6002BC518 /* Assets.xcassets in Resources */,
+				421340E91E2D38C6002BC518 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421340F21E2D38C6002BC518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421340FD1E2D38C6002BC518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421340D71E2D38C6002BC518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421340E61E2D38C6002BC518 /* ViewController.m in Sources */,
+				421341131E2D392F002BC518 /* UIButton+blockMsg.m in Sources */,
+				421340E31E2D38C6002BC518 /* AppDelegate.m in Sources */,
+				421340E01E2D38C6002BC518 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421340F01E2D38C6002BC518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421340F91E2D38C6002BC518 /* UIButton_blockMsgTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421340FB1E2D38C6002BC518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421341041E2D38C6002BC518 /* UIButton_blockMsgUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421340F61E2D38C6002BC518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421340DA1E2D38C6002BC518 /* UIButton-blockMsg */;
+			targetProxy = 421340F51E2D38C6002BC518 /* PBXContainerItemProxy */;
+		};
+		421341011E2D38C6002BC518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421340DA1E2D38C6002BC518 /* UIButton-blockMsg */;
+			targetProxy = 421341001E2D38C6002BC518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		421340E71E2D38C6002BC518 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421340E81E2D38C6002BC518 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		421340EC1E2D38C6002BC518 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421340ED1E2D38C6002BC518 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		421341061E2D38C6002BC518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		421341071E2D38C6002BC518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		421341091E2D38C6002BC518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIButton-blockMsg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.zige.UIButton-blockMsg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4213410A1E2D38C6002BC518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UIButton-blockMsg/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.zige.UIButton-blockMsg";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4213410C1E2D38C6002BC518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIButton-blockMsgTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.zige.UIButton-blockMsgTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButton-blockMsg.app/UIButton-blockMsg";
+			};
+			name = Debug;
+		};
+		4213410D1E2D38C6002BC518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "UIButton-blockMsgTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.zige.UIButton-blockMsgTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIButton-blockMsg.app/UIButton-blockMsg";
+			};
+			name = Release;
+		};
+		4213410F1E2D38C6002BC518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIButton-blockMsgUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.zige.UIButton-blockMsgUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIButton-blockMsg";
+			};
+			name = Debug;
+		};
+		421341101E2D38C6002BC518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "UIButton-blockMsgUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zige.zige.UIButton-blockMsgUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UIButton-blockMsg";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421340D61E2D38C6002BC518 /* Build configuration list for PBXProject "UIButton-blockMsg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421341061E2D38C6002BC518 /* Debug */,
+				421341071E2D38C6002BC518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421341081E2D38C6002BC518 /* Build configuration list for PBXNativeTarget "UIButton-blockMsg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421341091E2D38C6002BC518 /* Debug */,
+				4213410A1E2D38C6002BC518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4213410B1E2D38C6002BC518 /* Build configuration list for PBXNativeTarget "UIButton-blockMsgTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4213410C1E2D38C6002BC518 /* Debug */,
+				4213410D1E2D38C6002BC518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4213410E1E2D38C6002BC518 /* Build configuration list for PBXNativeTarget "UIButton-blockMsgUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4213410F1E2D38C6002BC518 /* Debug */,
+				421341101E2D38C6002BC518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421340D31E2D38C6002BC518 /* Project object */;
+}
