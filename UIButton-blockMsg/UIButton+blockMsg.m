@@ -18,6 +18,7 @@ static char unpressedKey;
 static char pressedTimeKey;
 static char unpressedTimeKey;
 
+
 - (void)btnCallActionBlock:(pressedBlock)pressblock withBlock:(unpressedBlock)unpressedblock{
     
      objc_setAssociatedObject(self, &pressedKey, pressblock, OBJC_ASSOCIATION_COPY_NONATOMIC);
@@ -65,7 +66,6 @@ static char unpressedTimeKey;
     }
     
     //执行点动效果(放大)
-
     [UIView animateWithDuration:selfAnimateTime animations:^{
          self.transform = CGAffineTransformMakeScale(1.0, 1.0);
     } completion:^(BOOL finished) {
