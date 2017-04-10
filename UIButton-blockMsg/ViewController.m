@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    //在这里做测试
     UIButton *btn = [[UIButton alloc]init];
     [btn setFrame:CGRectMake(0, 0, 100, 100)];
     [btn setCenter:self.view.center];
