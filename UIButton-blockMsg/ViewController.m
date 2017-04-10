@@ -20,7 +20,10 @@
     UIButton *btn = [[UIButton alloc]init];
     [btn setFrame:CGRectMake(0, 0, 100, 100)];
     [btn setCenter:self.view.center];
-    [btn setBackgroundColor:[UIColor redColor]];
+    
+    //改变颜色
+    [btn setBackgroundColor:[UIColor blueColor]];
+    
     [self.view addSubview:btn];
     [btn btnCallActionBlock:^{
         //此处手指刚触碰 并未离开
