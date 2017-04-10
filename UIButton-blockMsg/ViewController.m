@@ -23,7 +23,12 @@
     
     //改变颜色
     [btn setBackgroundColor:[UIColor blueColor]];
-    
+    /*
+     这是开始测试的地方
+     加了注释
+     
+     
+     */
     [self.view addSubview:btn];
     [btn btnCallActionBlock:^{
         //此处手指刚触碰 并未离开
